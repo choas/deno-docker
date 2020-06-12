@@ -1,6 +1,6 @@
 # Deno Docker
 
-Docker image for [denoland/deno](https://github.com/denoland/deno) programming language. This 
+Docker image for [denoland/deno](https://github.com/denoland/deno) programming language.
 
 ## Examples
 
