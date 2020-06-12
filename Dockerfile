@@ -10,4 +10,6 @@ RUN curl -fsSL https://deno.land/x/install/install.sh | sh
 
 WORKDIR /deno
 
-ENTRYPOINT [ "/root/.deno/bin/deno" ]
+ENV PATH="/root/.deno/bin:$PATH"
+
+ENTRYPOINT [ "deno" ]

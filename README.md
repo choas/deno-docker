@@ -44,6 +44,16 @@ docker run -p 8080:8080 choas/deno run --allow-net --allow-read https://deno.lan
 
 open two browser windows [http://localhost:8080](http://localhost:8080)
 
+## Change entrypoint
+
+Change entrypoint to `/bin/bash`
+
+```shell
+docker run -it --entrypoint=/bin/bash choas/deno
+```
+
+`deno` is set in PATH environmnet.
+
 ## Docker Hub
 
 [docker hub choas/deno](https://hub.docker.com/r/choas/deno)
