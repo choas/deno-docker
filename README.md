@@ -15,7 +15,7 @@ docker run choas/deno --version
 ### Run hello.ts
 
 ```TypeScript
-console.log("hallo Deno 1.0");
+console.log('hallo Deno version', Deno.version.deno);
 ```
 
 ```shell
